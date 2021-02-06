@@ -1,4 +1,4 @@
-//program to sort even number 
+//program to sort even and odd  numbers
 #include<iostream>
 using namespace std;
 
