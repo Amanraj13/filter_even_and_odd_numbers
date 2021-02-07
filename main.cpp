@@ -6,7 +6,7 @@ int main(){
     int choice;
     int upper_limit;
     
-    //asking the user whether he wants to sort out even number or odd number
+    //asking the user whether he wants to sort out even numbers or odd numbers
     cout<<"\nTo sort even number press 1 and to sort odd number press 2:";
     cin>>choice;
     
@@ -16,7 +16,7 @@ int main(){
     cin>>upper_limit;
     
     
-    //for loop to filter even number;
+    //for loop to filter even numbers;
     cout<<"\nThe even numbers smaller than "<<upper_limit<<" are:"<<endl;
     for(int i{1};i<upper_limit;i++){
         if(i%2==0){
@@ -31,7 +31,7 @@ int main(){
     cout<<"\nEnter the upper limit:";
     cin>>upper_limit;
     
-    //for loop to sort out odd number
+    //for loop to sort out odd numbers
     cout<<"\nThe odd numbers smaller than "<<upper_limit<<" are:"<<endl;
     for(int i{1};i<upper_limit;i++){
         if(i%2!=0){
